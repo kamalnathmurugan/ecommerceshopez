@@ -1,0 +1,22 @@
+.products-container {
+  min-height: 100vh;
+}
+
+.filters-sidebar {
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 56px);
+}
+
+.product-grid {
+  padding: 20px;
+}
+
+.product-card {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
